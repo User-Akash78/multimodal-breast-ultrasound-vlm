@@ -20,7 +20,7 @@ The final system produces three outputs:
 
 •	structured diagnostic report
 
-
+----------------------------------------------------------------------------------------------
 Directory Overview
 
 notebooks: The Main development and implementation of the system can be found in this folder
