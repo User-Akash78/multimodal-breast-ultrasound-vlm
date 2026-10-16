@@ -21,6 +21,12 @@ The final system produces three outputs:
 •	structured diagnostic report
 
 
-The Main development and implementation of the system can be found in the notebooks folder
+Directory Overview
+notebooks: The Main development and implementation of the system can be found in this folder
+src: The Contains the reusable Python modules for preprocessing, segmentation, encoding, fusion, classification, report generation, and inference.
+models: Stores the trained model configuration files and the trained model checkpoints.
+outputs: Contains final evaluation results, predictions, and generated report metrics
+
+App.py is a streamlit based web interface used to demonstrate the system
 
 
