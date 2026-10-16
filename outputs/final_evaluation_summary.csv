@@ -1,0 +1,11 @@
+Metric,Score
+Segmentation Dice,0.7300135158492547
+Segmentation IoU,0.6085528684534917
+Classification Accuracy,0.7894736842105263
+Classification Precision,0.8181818181818182
+Classification Recall,0.6
+Classification F1,0.6923076923076923
+Classification ROC-AUC,0.7913043478260869
+Report BLEU,0.6330563173618039
+Report ROUGE-L,0.8505186547690566
+Report METEOR,0.8012786721007432
