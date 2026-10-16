@@ -25,7 +25,7 @@ Directory Overview
 
 notebooks: The Main development and implementation of the system can be found in this folder
 
-src: The Contains the reusable Python modules for preprocessing, segmentation, encoding, fusion, classification, report generation, and inference.
+src: Contains the reusable Python modules for preprocessing, segmentation, encoding, fusion, classification, report generation, and inference.
 
 models: Stores the trained model configuration files and the trained model checkpoints.
 
