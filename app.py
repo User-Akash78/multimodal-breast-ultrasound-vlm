@@ -239,3 +239,9 @@ if analyse_button:
             st.write(
                 result["clinical_text"]
             )
+
+        '''
+        run the command- 
+        python -m streamlit run app.py
+        to run the streamlit website
+        '''
