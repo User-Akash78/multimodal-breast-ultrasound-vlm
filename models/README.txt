@@ -5,3 +5,4 @@ best_unet.pth
 best_multimodal_classifier.pth
 best_efficientnet_image_classifier.pth
 best_report_generator.pth
+segmentation_config.json
