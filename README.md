@@ -1,2 +1,13 @@
-# Breast_Ultrasound_FYP
+# multimodal-breast-ultrasound-vlm
 This project develops an end-to-end multimodal breast ultrasound decision-support system that combines breast ultrasound images with structured clinical data to automatically segment breast lesions, generate a diagnostic prediction, and produce a structured diagnostic report.
+
+The below image shows the overall framework for the VLM system
+<img width="940" height="394" alt="image" src="https://github.com/user-attachments/assets/c3fe4bbb-a0f2-4d1c-8bda-bf396672ccbf" />
+The system takes in two main inputs, a breast ultrasound image and clinical information. The ultrasound image is first passed through the segmentation component, where a U-Net model generates a lesion mask. This predicted mask is then used to identify the lesion region without the need for expert-provided segmentation.
+The ultrasound image is processed using EfficientNet to extract visual features, while the structured clinical information is converted into a suitable textual representation and encoded using ClinicalBERT. The two features are then combined using a cross-attention-based multimodal fusion mechanism.
+The fused features are fed to two components. A classification head which predicts whether the lesion is benign or malignant and a GPT-2 based report generation component which produces a structured report
+The final system produces three outputs:
+•	predicted lesion segmentation mask
+•	benign or malignant classification 
+•	structured diagnostic report
+
