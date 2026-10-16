@@ -13,7 +13,11 @@ The two features are then combined using a cross-attention-based multimodal fusi
 The fused features are fed to two components. A classification head which predicts whether the lesion is benign or malignant and a GPT-2 based report generation component which produces a structured report
 
 The final system produces three outputs:
+
 •	predicted lesion segmentation mask
+
 •	benign or malignant classification 
+
 •	structured diagnostic report
+
 
