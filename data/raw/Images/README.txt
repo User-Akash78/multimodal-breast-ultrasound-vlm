@@ -1,0 +1,1 @@
+This Folder should contain the raw image data, both ultrasound images and tumor masks
