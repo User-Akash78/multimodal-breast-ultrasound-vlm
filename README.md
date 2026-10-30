@@ -52,7 +52,7 @@ pip install -r requirements.txt
 4. select the interpreter below:
 .venv\Scripts\python.exe
 
-5.Once all notebooks are executed, run the command below to run the streamlit website:
+5. Once all notebooks are executed, run the command below to run the streamlit website:
 python -m streamlit run app.py        
 
 ''' 
