@@ -35,3 +35,22 @@ outputs: Contains final evaluation results, predictions, and generated report me
 App.py is a streamlit based web interface used to demonstrate the system
 
 
+SetUp:
+'''
+Run these commands in the terminal to set up the virtual environment and install dependencies:
+1. Create a virtual environment:
+python -m venv .venv
+
+2. Activate the virtual environment:
+.venv\Scripts\activate
+
+3. Install the required packages:
+pip install -r requirements.txt
+
+4. select the interpreter below:
+.venv\Scripts\python.exe
+
+5.Once all notebooks are executed, run the command below to run the streamlit website:
+python -m streamlit run app.py        
+
+''' 
