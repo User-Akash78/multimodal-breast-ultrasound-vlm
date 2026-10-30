@@ -36,6 +36,7 @@ App.py is a streamlit based web interface used to demonstrate the system
 
 
 SetUp:
+
 '''
 Run these commands in the terminal to set up the virtual environment and install dependencies:
 1. Create a virtual environment:
